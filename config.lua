@@ -92,6 +92,27 @@ Config.Impounds = {
             vector4(1746.85, 3252.57, 42.30, 105.58),
         }
     },
+    {
+        label = 'MRPD Police Heli  Garage',
+        type = 'helicopter',
+        job = {['police'] = 0},
+        ped = `s_m_y_cop_01`,
+        pedCoords = vector4(459.5895, -977.7859, 42.6916, 96.5463),
+        zone = {name = 'mrpd', x = 451.06, y= -981.19, z = 43.69, l = 20, w = 20, h = 0, minZ = 43.03, maxZ = 45.03},
+        spawns = {
+            vector4(448.9937, -981.3010, 43.6914, 91.3931),
+        }
+    },
+    {
+        type = 'helicopter',
+        job = {['police'] = 0, ['ambulance'] = 0},
+        pedCoords = vector4(1767.4377, 3248.1733, 40.8080, 184.7869),
+        zone = {name = 'sandy air', x = 1769.17, y = 3239.32, z = 41.0, l = 15.0, w = 12.5, h = 50, minZ = 40.13, maxZ = 44.13},
+        spawns = {
+            vector4(1769.17, 3239.32, 41.0, 105.71),
+            vector4(1746.85, 3252.57, 42.30, 105.58),
+        }
+    }
     --[[
         TEMPLATE:
         {
